@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia!</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+    <div class="banner">
+        <img src="images/bg.jpg" class="bg">
+        <div class="content">
+            <img src="images/name.png" class="movieTitle">
+            <h1> Mamma Mia! O Filme</h1>
+            <h4>
+                <span>2008</span>
+                <span><i>10+</i></span>
+                <span>1h 48min</span>
+                <span>Comédia</span>
+            </h4>
+            <p>
+                Na ilha grega de Kalokairi, uma mãe solteira enfrenta uma saia justa quando a filha convida três ex-amantes da mãe para sua festa de casamento.
+            </p>
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo()"><img src="images/play.png">Watch Trailer</a>
+        </div>
+        <div class="trailer">
+        <video src="midia/Mamma Mia! Official Trailer 1 - Meryl Streep Amanda Seyfried Movie (2008) HD.mp4" controls="true"></video>
+        <img src="images/close.png" class="close" onclick="toggleVideo()">
+        </div>
+</body>
+    <script src="main.js"></script>
+</html>
